@@ -1,0 +1,131 @@
+/* Main Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark theme */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff; /* Text color for contrast */
+}
+
+.converter-container {
+    background-color: #1e1e1e; /* Dark background for the container */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.currency-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.currency-group {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+label {
+    font-size: 16px;
+    color: #bbbbbb; /* Softer text color */
+    margin-bottom: 8px;
+}
+
+/* Input fields and dropdown elements for currencies */
+.currency-input-group {
+    display: flex; /* Arrange elements horizontally */
+    gap: 10px; /* Spacing between the text field and dropdown */
+    align-items: center;
+    justify-content: space-between; /* Evenly distribute elements */
+    width: 100%;
+}
+
+.currency-input {
+    flex: 2; /* Text field takes up more space */
+    padding: 10px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #2c2c2c; /* Dark background for the input */
+    color: #ffffff; /* White text */
+    outline: none;
+}
+
+.currency-input:focus {
+    border-color: #007bff;
+}
+
+.currency-select {
+    flex: 1; /* Dropdown takes up less space */
+    padding: 10px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #2c2c2c; /* Dark background for the dropdown */
+    color: #ffffff; /* White text */
+    outline: none;
+}
+
+.currency-select:focus {
+    border-color: #007bff;
+}
+
+.switch-group {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the button */
+    margin: 10px 0; /* Add spacing above and below */
+}
+
+.switch-button {
+    font-size: 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    width: 50px; /* Enlarged button size */
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+.switch-button:hover {
+    background-color: #0056b3;
+}
+
+.convert-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #28a745;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.convert-button:hover {
+    background-color: #218838;
+}
+
+.result-text {
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 10px;
+}

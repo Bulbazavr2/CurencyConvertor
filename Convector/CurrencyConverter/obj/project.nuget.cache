@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jKABElLvfrc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shava\\OneDrive\\Рабочий стол\\Convector\\CurrencyConverter\\CurrencyConverter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shava\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "C:\\Users\\shava\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

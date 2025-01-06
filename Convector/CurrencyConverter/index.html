@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="converter-container">
+        <h1>Currency Converter</h1> <!-- Page title -->
+        <form id="currencyForm" class="currency-form">
+            <!-- Section for entering the source currency -->
+            <div class="currency-group">
+                <label for="fromCurrency">I have:</label> <!-- Label for the source currency -->
+                <div class="currency-input-group">
+                    <input type="number" id="amount" class="currency-input" placeholder="Enter amount" required /> <!-- Input field for amount -->
+                    <select id="fromCurrency" class="currency-select"></select> <!-- Dropdown for selecting the source currency -->
+                </div>
+            </div>
+            <!-- Section for switching currencies -->
+            <div class="switch-group">
+                <button type="button" id="switchCurrencies" class="switch-button">⇆</button> <!-- Button to switch currencies -->
+            </div>
+            <!-- Section for displaying the target currency -->
+            <div class="currency-group">
+                <label for="toCurrency">I want to buy:</label> <!-- Label for the target currency -->
+                <div class="currency-input-group">
+                    <input type="text" id="result" class="currency-input" placeholder="Result" readonly /> <!-- Input field to display the result -->
+                    <select id="toCurrency" class="currency-select"></select> <!-- Dropdown for selecting the target currency -->
+                </div>
+            </div>
+            <button type="submit" class="convert-button">Convert</button> <!-- Button to submit the form -->
+        </form>
+    </div>
+    <script src="script.js"></script> <!-- JavaScript file for functionality -->
+</body>
+</html>
